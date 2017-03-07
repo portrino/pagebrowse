@@ -1,6 +1,6 @@
 # Universal page browser for TYPO3 CMS
 
-**WARNING!** This extension is obsolete and will not be updated anymore.
+**WARNING!** This is an unofficial fork to make this `pagebrowse` extension compatible with TYPO3 7.6 LTS
 
 ---
 
@@ -25,9 +25,9 @@ protected function getListGetPageBrowser($numberOfPages) {
 		'numberOfPages' => $numberOfPages,
 	);
 	// Get page browser
-	$cObj = t3lib_div::makeInstance('tslib_cObj');
-	/* @var $cObj tslib_cObj */
-	$cObj->start(array(), '');
+	$cObj = t3lib_div::makeInstance(\TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer::class);
+	/* @var $cObj \TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer */
+	$cObj->start([], '');
 	return $cObj->cObjGetSingle('USER', $conf);
 }
 </pre>
@@ -39,7 +39,3 @@ See the manual at doc/manual.sxw for more information and a list of all availabl
 This extension was built in "pibase" times and it does not support recent TYPO3 technologies (such as Extbase or FLUID). However it is still the most lightweight and simple page browser for TYPO3 around.
 
 This code is old. It is quite clean but not as clean as I would prefer now. However it is stable and used in production on many sites that use TYPO3.
-
-## Contacts
-
-E-mail: dmitry.dulepov@gmail.com
