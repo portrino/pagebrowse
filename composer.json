@@ -41,6 +41,7 @@
         }
     },
     "replace": {
-        "px_register": "*"
+        "pagebrowse": "self.version",
+        "typo3-ter/pagebrowse": "self.version"
     }
 }
