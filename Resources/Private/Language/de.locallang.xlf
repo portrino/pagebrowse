@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-03-07T13:18:06Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="no_ts_template" approved="yes">
+			<source>Extension &quot;pagebrowse&quot;: please, add extension TypoScript template to the main TypoScript template.</source>
+			<target>Bitte fügen Sie das Erweiterungs-TypoScript-Template der Erweiterung &quot;pagebrowse&quot; zu Ihrem Haupt-Template hinzu.</target>
+		</trans-unit>
+		<trans-unit id="text_first" approved="yes">
+			<source>&lt;&lt;First</source>
+			<target>&lt;&lt; Erste</target>
+		</trans-unit>
+		<trans-unit id="text_last" approved="yes">
+			<source>Last&gt;&gt;</source>
+			<target>Last&gt;&gt;</target>
+		</trans-unit>
+		<trans-unit id="text_next" approved="yes">
+			<source>Next&gt;</source>
+			<target>Nächste &gt;</target>
+		</trans-unit>
+		<trans-unit id="text_prev" approved="yes">
+			<source>&lt;Previous</source>
+			<target>&lt; Vorherige</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

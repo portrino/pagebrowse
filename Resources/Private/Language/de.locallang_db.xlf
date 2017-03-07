@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-03-07T13:19:05Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="tt_content.list_type_pi1" approved="yes">
+			<source>Universal page browser</source>
+			<target>Universal page browser</target>
+		</trans-unit>
+		<trans-unit id="tt_content.tx_pagebrowse_pi1.pageParamName" approved="yes">
+			<source>Page parameter name</source>
+			<target>Seiten-Parameter-Name</target>
+		</trans-unit>
+		<trans-unit id="tt_content.tx_pagebrowse_pi1.templateFile" approved="yes">
+			<source>Template file</source>
+			<target>Vorlagendatei</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-    <file source-language="en" datatype="plaintext" original="messages" date="2017-03-07T12:30:18Z" product-name="pagebrowse">
-        <header/>
-        <body>
-            <trans-unit id="no_ts_template" xml:space="preserve">
-                <source>Extension "pagebrowse": please, add extension TypoScript template to the main TypoScript template.</source>
-            </trans-unit>
-            <trans-unit id="text_first" xml:space="preserve">
-                <source>First</source>
-            </trans-unit>
-            <trans-unit id="text_prev" xml:space="preserve">
-                <source>Previous</source>
-            </trans-unit>
-            <trans-unit id="text_next" xml:space="preserve">
-                <source>Next</source>
-            </trans-unit>
-            <trans-unit id="text_last" xml:space="preserve">
-                <source>Last</source>
-            </trans-unit>
-        </body>
-    </file>
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-03-07T13:15:59Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="no_ts_template">
+			<source>Extension &quot;pagebrowse&quot;: please, add extension TypoScript template to the main TypoScript template.</source>
+		</trans-unit>
+		<trans-unit id="text_first">
+			<source>&lt;&lt;First</source>
+		</trans-unit>
+		<trans-unit id="text_last">
+			<source>Last&gt;&gt;</source>
+		</trans-unit>
+		<trans-unit id="text_next">
+			<source>Next&gt;</source>
+		</trans-unit>
+		<trans-unit id="text_prev">
+			<source>&lt;Previous</source>
+		</trans-unit>
+		</body>
+	</file>
 </xliff>
