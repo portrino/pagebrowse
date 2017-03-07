@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2017-03-07T12:30:18Z" product-name="pagebrowse">
+        <header/>
+        <body>
+            <trans-unit id="tt_content.list_type_pi1" xml:space="preserve">
+                <source>Universal page browser</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_pagebrowse_pi1.pageParamName" xml:space="preserve">
+                <source>Page parameter name</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_pagebrowse_pi1.templateFile" xml:space="preserve">
+                <source>Template file</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

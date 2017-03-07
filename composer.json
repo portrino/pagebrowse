@@ -1,0 +1,46 @@
+{
+    "name": "portrino/pagebrowse",
+    "description": "Provides page browsing services for extensions",
+    "version": "1.4.0",
+    "type": "typo3-cms-extension",
+    "keywords": [
+        "TYPO3",
+        "CMS",
+        "Extension",
+        "portrino"
+    ],
+    "homepage": "http://www.portrino.de",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Andre Wuttig",
+            "email": "wuttig@portrino.de",
+            "homepage": "http://www.portrino.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Axel Boeswetter",
+            "email": "boeswetter@portrino.de",
+            "homepage": "http://www.portrino.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Thomas Griessbach",
+            "email": "griessbach@portrino.de",
+            "homepage": "http://www.portrino.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "dev@portrino.de",
+        "source": "https://github.com/portrino/pagebrowse"
+    },
+    "autoload": {
+        "psr-4": {
+            "Portrino\\Pagebrowse\\": "Classes"
+        }
+    },
+    "replace": {
+        "px_register": "*"
+    }
+}
