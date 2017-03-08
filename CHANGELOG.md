@@ -1,8 +1,9 @@
-# PxRegister Changelog
+# Pagebrowse Changelog
 
 2017-03-07
 ----------
 * [TASK] TYPO3 7.6 compability
+* set version to 1.4.0
 
 ---
 
