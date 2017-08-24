@@ -26,4 +26,7 @@ plugin.tx_pagebrowse_pi1 {
 
 	# Enables section for "less" pages. This section is shown after links to next pages, normally like three dots (1 2 3 ...) Notice that you can also hide it by emptying corresponding template section.
 	enableLessPages = 1
+
+    # add id of parent content element as anchor to pager links, to jump to paged content after click
+    addAnchorToParentContentElement = {$plugin.tx_pagebrowse_pi1.addAnchorToParentContentElement}
 }

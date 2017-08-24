@@ -1,4 +1,7 @@
 plugin.tx_pagebrowse_pi1 {
 	# cat=plugin.tx_pagebrowse_pi1; type=string; label=Template file
 	templateFile = EXT:pagebrowse/Resources/Private/Templates/template.html
+
+    # add id of parent content element as anchor  to pager links, to jump to paged content after click
+    addAnchorToParentContentElement = 0
 }

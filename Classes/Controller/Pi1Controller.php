@@ -371,6 +371,10 @@ class Pi1Controller extends AbstractPlugin
             'additionalParams' => $additionalParams,
             'useCacheHash' => (strlen($additionalParams) > 1) && !$this->conf['disableCacheHash'],
         ];
+
+        if ($this->conf['addAnchorToParentContentElement'] && $this->cObj->data['uid'] > 0) {
+            $conf['parameter'] = $GLOBALS['TSFE']->id . '#' . $this->cObj->data['uid'];
+        }
         return htmlspecialchars($this->cObj->typoLink_URL($conf));
     }
 

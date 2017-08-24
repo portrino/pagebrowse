@@ -1,5 +1,10 @@
 # Pagebrowse Changelog
 
+2017-08-24
+----------
+* [TASK] adds feature to add id of parent content element as anchor to pager links
+* set version to 1.5.0
+
 2017-03-07
 ----------
 * [TASK] TYPO3 7.6 compability
