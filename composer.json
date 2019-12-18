@@ -41,7 +41,7 @@
         }
     },
     "replace": {
-        "pagebrowse": "self.version",
+        "dmitryd/pagebrowse": "self.version",
         "typo3-ter/pagebrowse": "self.version"
     }
 }
